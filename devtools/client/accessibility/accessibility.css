@@ -401,8 +401,9 @@ body {
 }
 
 .mainFrame .treeTable .treeRow.hasChildren > .treeLabelCell > .treeLabel:hover {
-  cursor: unset;
   text-decoration: none;
+  cursor: default;
+  pointer-events: none;
 }
 
 .mainFrame .treeTable .treeHeaderRow > .treeHeaderCell:first-child > .treeHeaderCellBox,

@@ -170,6 +170,8 @@
 
 .network-monitor .tree-container .treeTable .treeRow.hasChildren > .treeLabelCell > .treeLabel:hover {
   text-decoration: none;
+  cursor: default;
+  pointer-events: none;
 }
 
 .network-monitor .tab-panel.panel-with-code .tree-container .treeTable tr:not(.tree-section):dir(rtl) {
